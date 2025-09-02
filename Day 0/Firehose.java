@@ -29,9 +29,20 @@ public class Firehose {
         
         
     }
+    public void drinkMe (double amount){
+        if (amount <= weight){
+            System.out.println(("Drunk"));
+            weight -= amount;
 
+        } 
+        else
+            System.out.println(("Not enough water"));
+    
+    }
     public void unwind(){
         System.out.println("Un winded");
+        System.out.println(color);
+       
     }
 
 }

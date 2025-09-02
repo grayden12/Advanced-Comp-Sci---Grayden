@@ -6,6 +6,7 @@ public class FirehoseTester {
         hose1.paint();
         hose1.unwind();
         hose1.use();
+        hose1.drinkMe(90);
     }
 
    
